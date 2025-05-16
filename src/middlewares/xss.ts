@@ -22,7 +22,17 @@ export const clean = <T>(data: T | string = ''): T => {
 const middleware = () => {
   return (req: Request, res: Response, next: NextFunction) => {
     if (req.body) req.body = clean(req.body);
-    if (req.query) req.query = clean(req.query);
+    
+    // Instead of modifying req.query directly, we create a sanitized version
+    // and use Object.defineProperty to create a new getter
+    if (req.query) {
+      const sanitizedQuery = clean(req.query);
+      Object.defineProperty(req, 'xssCleanedQuery', {
+        value: sanitizedQuery,
+        writable: false
+      });
+    }
+    
     if (req.params) req.params = clean(req.params);
     next();
   };

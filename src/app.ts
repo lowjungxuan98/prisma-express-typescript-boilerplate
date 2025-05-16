@@ -33,14 +33,14 @@ app.use(express.urlencoded({ extended: true }));
 app.use(xss());
 
 // gzip compression
-app.use(compression());
+app.use('/', compression());
 
 // enable cors
 app.use(cors());
-app.options('*', cors());
+app.options('/*pathMatch', cors());
 
 // jwt authentication
-app.use(passport.initialize());
+app.use('/', passport.initialize());
 passport.use('jwt', jwtStrategy);
 
 // limit repeated failed requests to auth endpoints
