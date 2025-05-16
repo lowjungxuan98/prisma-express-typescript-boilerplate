@@ -10,7 +10,8 @@ const specs = swaggerJsdoc({
   apis: ['src/docs/*.yml', 'src/routes/v1/*.ts']
 });
 
-router.use('/', swaggerUi.serve);
+// Apply swagger UI with properly spreading the middleware array
+router.use('/', ...swaggerUi.serve);
 router.get(
   '/',
   swaggerUi.setup(specs, {
