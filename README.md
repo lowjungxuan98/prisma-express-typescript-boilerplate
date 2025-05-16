@@ -4,33 +4,65 @@ A boilerplate/starter project for quickly building RESTful APIs using [Node.js](
 
 This project is an adaptation of the project [RESTful API Node Server Boilerplate](https://github.com/hagopj13/node-express-boilerplate) using a [PostgreSQL](https://www.postgresql.org) database with [Prisma](https://www.prisma.io) ORM. Many of the files are just an adaptation to [TypeScript](https://www.typescriptlang.org) from the files of the previously mentioned project.
 
+## Prerequisites
+
+Before getting started, make sure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/en/download/) (v14 or above)
+- [Yarn](https://yarnpkg.com/getting-started/install)
+- [PostgreSQL](https://www.postgresql.org/download/) (running instance)
+- [Git](https://git-scm.com/downloads)
+
 ## Quick Start
 
-Clone the repo:
+1. Clone the repo:
 
 ```bash
-git clone --depth 1 https://github.com/antonio-lazaro/prisma-express-typescript-boilerplate.git
+git clone https://github.com/antonio-lazaro/prisma-express-typescript-boilerplate.git
 cd prisma-express-typescript-boilerplate
-npx rimraf ./.git
 ```
 
-Install the dependencies:
+2. Install the dependencies:
 
 ```bash
 yarn install
 ```
 
-Set the environment variables:
+3. Set up environment variables:
 
 ```bash
 cp .env.example .env
 
-# open .env and modify the environment variables (if needed)
+# open .env and modify the environment variables (especially DATABASE_URL for your PostgreSQL instance)
+```
+
+4. Initialize the database:
+
+```bash
+# Push the Prisma schema to your database
+yarn db:push
+```
+
+5. Start development server:
+
+```bash
+yarn dev
+```
+
+6. For production deployment:
+
+```bash
+# Build the project
+yarn build
+
+# Start the production server
+yarn start
 ```
 
 ## Table of Contents
 
 - [RESTful API Node Server Boilerplate](#restful-api-node-server-boilerplate)
+  - [Prerequisites](#prerequisites)
   - [Quick Start](#quick-start)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
