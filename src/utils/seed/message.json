@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "conversationId": 1,
+    "userId": 1,
+    "messageText": "Welcome to the admin dashboard! Let me know if you need help.",
+    "createdAt": "2024-07-10T08:00:00.000Z",
+    "updatedAt": "2024-07-10T08:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "conversationId": 1,
+    "userId": 2,
+    "messageText": "Thanks! I'm having trouble accessing the reports section.",
+    "createdAt": "2024-07-10T08:05:00.000Z",
+    "updatedAt": "2024-07-10T08:05:00.000Z"
+  },
+  {
+    "id": 3,
+    "conversationId": 1,
+    "userId": 1,
+    "messageText": "I'll check your permissions and update them right away.",
+    "createdAt": "2024-07-10T08:10:00.000Z",
+    "updatedAt": "2024-07-10T08:10:00.000Z"
+  },
+  {
+    "id": 4,
+    "conversationId": 2,
+    "userId": 2,
+    "messageText": "Hi, is the new feature available yet?",
+    "createdAt": "2024-07-11T09:15:00.000Z",
+    "updatedAt": "2024-07-11T09:15:00.000Z"
+  },
+  {
+    "id": 5,
+    "conversationId": 2,
+    "userId": 3,
+    "messageText": "Yes, it was released this morning. Check the updates tab!",
+    "createdAt": "2024-07-11T09:20:00.000Z",
+    "updatedAt": "2024-07-11T09:20:00.000Z"
+  },
+  {
+    "id": 6,
+    "conversationId": 2,
+    "userId": 2,
+    "messageText": "Found it, thanks for your help!",
+    "createdAt": "2024-07-11T09:25:00.000Z",
+    "updatedAt": "2024-07-11T09:25:00.000Z"
+  },
+  {
+    "id": 7,
+    "conversationId": 3,
+    "userId": 3,
+    "messageText": "When is the next team meeting scheduled?",
+    "createdAt": "2024-07-11T10:30:00.000Z",
+    "updatedAt": "2024-07-11T10:30:00.000Z"
+  },
+  {
+    "id": 8,
+    "conversationId": 3,
+    "userId": 1,
+    "messageText": "It's set for next Tuesday at 2 PM.",
+    "createdAt": "2024-07-11T10:35:00.000Z",
+    "updatedAt": "2024-07-11T10:35:00.000Z"
+  },
+  {
+    "id": 9,
+    "conversationId": 4,
+    "userId": 2,
+    "messageText": "Have you reviewed the latest pull request?",
+    "createdAt": "2024-07-12T13:00:00.000Z",
+    "updatedAt": "2024-07-12T13:00:00.000Z"
+  },
+  {
+    "id": 10,
+    "conversationId": 4,
+    "userId": 5,
+    "messageText": "Yes, I just left some comments. Overall it looks good!",
+    "createdAt": "2024-07-12T13:10:00.000Z",
+    "updatedAt": "2024-07-12T13:10:00.000Z"
+  },
+  {
+    "id": 11,
+    "conversationId": 5,
+    "userId": 5,
+    "messageText": "I'm having trouble with the API integration.",
+    "createdAt": "2024-07-13T16:20:00.000Z",
+    "updatedAt": "2024-07-13T16:20:00.000Z"
+  },
+  {
+    "id": 12,
+    "conversationId": 5,
+    "userId": 1,
+    "messageText": "Let me know which endpoint is giving you problems.",
+    "createdAt": "2024-07-13T16:25:00.000Z",
+    "updatedAt": "2024-07-13T16:25:00.000Z"
+  },
+  {
+    "id": 13,
+    "conversationId": 5,
+    "userId": 5,
+    "messageText": "The /users/profile endpoint returns a 403 error.",
+    "createdAt": "2024-07-13T16:30:00.000Z",
+    "updatedAt": "2024-07-13T16:30:00.000Z"
+  },
+  {
+    "id": 14,
+    "conversationId": 5,
+    "userId": 1,
+    "messageText": "That's a permission issue. Make sure your auth token has the correct scope.",
+    "createdAt": "2024-07-13T16:35:00.000Z",
+    "updatedAt": "2024-07-13T16:35:00.000Z"
+  },
+  {
+    "id": 15,
+    "conversationId": 5,
+    "userId": 5,
+    "messageText": "That fixed it! Thank you for the quick help.",
+    "createdAt": "2024-07-14T12:05:00.000Z",
+    "updatedAt": "2024-07-14T12:05:00.000Z"
+  }
+]

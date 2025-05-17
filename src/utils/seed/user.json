@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "email": "admin@example.com",
+    "name": "Admin User",
+    "password": "Password123!", 
+    "role": "ADMIN",
+    "isEmailVerified": true
+  },
+  {
+    "id": 2,
+    "email": "john.doe@example.com",
+    "name": "John Doe",
+    "password": "Password123!",
+    "role": "USER",
+    "isEmailVerified": true
+  },
+  {
+    "id": 3,
+    "email": "jane.doe@example.com",
+    "name": "Jane Doe",
+    "password": "Password123!",
+    "role": "USER",
+    "isEmailVerified": true
+  },
+  {
+    "id": 4,
+    "email": "alex@example.com",
+    "name": "Alex Johnson",
+    "password": "Password123!",
+    "role": "USER",
+    "isEmailVerified": false
+  },
+  {
+    "id": 5,
+    "email": "sarah@example.com",
+    "name": "Sarah Wilson",
+    "password": "Password123!",
+    "role": "USER",
+    "isEmailVerified": true
+  }
+]
