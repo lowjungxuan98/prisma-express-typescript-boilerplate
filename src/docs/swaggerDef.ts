@@ -11,11 +11,15 @@ const swaggerDef = {
       url: repository
     }
   },
+  externalDocs: {                // <<< this will add the link to your swagger page
+    description: "swagger.json", // <<< link title
+    url: "http://localhost:3000/v1/docs/swagger.json"         // <<< and the file added below in app.get(...)
+  }, 
   servers: [
     {
       url: `http://localhost:${config.port}/v1`
     }
-  ]
+  ],
 };
 
 export default swaggerDef;
